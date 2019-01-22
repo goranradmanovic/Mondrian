@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" href="assets/images/icon/favicon.ico" type="image/x-icon"/>
+		<title>Mondrian by Goran Radmanovic</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Goran Radmanovic">
+		<meta name="description" content="This is example of Piet Mondrian paint">
+		<meta name="keywords" content="Piet, Mondrian, paint, codeing, layout, grid">
+		<!--FB meta-->
+		<meta property="fb:app_id" content="539067259939220">
+		<meta property="og:title" content="Mondrian by Goran Radmanovic">
+		<meta property="og:site_name" content="Mondrian Example Website">
+		<meta property="og:url" content="https://goranradmanovic.github.io/">
+		<meta property="og:description" content="Mondrian Example Website.">
+		<meta property="og:type" content="website">
+		<meta property="og:image:width" content="512">
+		<meta property="og:image:height" content="512">
+		<meta property="og:image:secure_url" content="/assets/images/meta/mondrian-thumbnail.png">
+		<meta property="og:image" content="/assets/images/meta/mondrian-thumbnail.png">
+		<meta property="og:image:alt" content="Social thumbnail image">
+		<!--Twitter meta-->
+		<meta name="twitter:title" content="Goran Radmanovic">
+		<meta name="twitter:description" content="Personal Portfolio Website.">
+		<meta name="twitter:image" content="/assets/images/meta/mondrain-thumbnail.png">
+		<meta name="twitter:image:alt" content="Social thumbnail image">
+		<meta name="twitter:card" content="summary_large_image">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="warning">
+			This demo only works in browsers that support CSS Grid Layout. If you can see this message, then your browser doesn't supporting Grid. You can try out Grid in <a href="https://nightly.mozilla.org/">Firefox Nightly</a> or <a href="http://gridbyexample.com/browsers/">other browsers by flipping a flag</a>.
+		</div>
+
+		<header class="header">
+			<h1 class="header__lead">
+				<a href="https://en.wikipedia.org/wiki/Piet_Mondrian" target="_blank" class="header__lead--link">Piet Mondrian</a>
+			</h1>
+			<p class="header__info">
+				<a href="https://www.piet-mondrian.org/composition-with-large-red-plane-yellow-black-gray-and-blue.jsp" target="_blank" class="header__info--link">Composition with Large Red Plane, Yellow, Black, Gray, and Blue, 1921</a>
+			</p>
+
+			<!-- Switch -->
+			<label class="header__switch" title="Toggle paint">
+				<input type="checkbox" id="checkboxBtn">
+				<span class="header__switch--slider"></span>
+			</label>
+		</header>
+
+		<div class="container">
+			<ul class="container__paint first" id="first-paint">
+				<li class="container__paint--item"></li> <!--1-->
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li> <!--20-->
+			</ul>
+
+			<ul class="container__paint second close" id="second-paint">
+				<li class="container__paint--item"></li> <!--1-->
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li>
+				<li class="container__paint--item"></li> <!--7-->
+			</ul>
+		</div>
+
+		<footer class="footer">
+			<p class="footer__info"> Designed &amp; Developed by 
+				<a href="https://goranradmanovic.github.io/" target="_blank" class="footer__info--link">Goran Radmanovic</a>
+			</p>
+			<p class="footer__copyright">&copy; Copyright 2019</p>
+		</footer>
+
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
