@@ -379,13 +379,14 @@ input:checked + .header__switch--slider:before {
 	grid-row: span 1;
 	border-top: none;
 	border-right: none;
+	border-bottom: 0.5vw solid black;
 	background-color: #ebe9ea;
 }
 
 .container__paint.second > li:nth-of-type(7) {
 	grid-column: span 1;
 	grid-row: span 1;
-	border-top: none;
+	border-top:  0.5vw solid black;
 	border-right: none;
 	border-bottom: none;
 	background-color: #dc9f09;
