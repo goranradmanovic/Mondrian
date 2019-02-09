@@ -422,7 +422,15 @@ input:checked + .header__switch--slider:before {
 
 /*Media query for responsive designe*/
 @media only screen and (max-width: 425px), (max-width: 375px), (max-width: 320px) {
+	.header__info {
+			margin: 10px 0 20px 0;
+	}
+
 	.container__paint.second {
 		grid-template-rows: 15vh repeat(3, 10vh) 8vh 8vh;
+	}
+
+	.footer__info, .footer__copyright {
+		font-size: .8em;
 	}
 }
